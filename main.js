@@ -71,7 +71,7 @@ class HomeComponent {
             },
             {
                 title: 'Bow Bash',
-                status: 'Avalable for Download',
+                status: 'Finished',
                 description: 'This is a Map which is inspired by yet another old minigame we used to play! Shoot or kick down other players to gain points. Fall down and loose points.',
                 img: 'assets/images/BB.png'
             },
