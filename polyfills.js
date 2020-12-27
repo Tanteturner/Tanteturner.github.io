@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Files\Workspace\PhpstormProjects\Tanteturner\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! D:\Files\Workspace\PhpstormProjects\TanteturnerProjects\src\polyfills.ts */"hN/g");
 
 
 /***/ }),
