@@ -50,6 +50,14 @@ body{
   font-size: 2rem;
   vertical-align:middle;
 }
+.nota{
+  text-decoration: none;
+  color: var(--dark);
+  transition: color 0.2s;
+}
+.nota:hover{
+  color: var(--light);
+}
 
 
 /*# sourceMappingURL=styles.css.map*/
