@@ -58,6 +58,14 @@ body{
 .nota:hover{
   color: var(--light);
 }
+.showRow{
+  background-color: white;
+}
+.round-img{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
 
 
 /*# sourceMappingURL=styles.css.map*/
