@@ -34,18 +34,27 @@ function HomeComponent_div_18_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-project-card", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const project_r2 = ctx.$implicit;
+    const project_r3 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("project", project_r2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("project", project_r3);
 } }
 function HomeComponent_div_22_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-project-card", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const resource_r3 = ctx.$implicit;
+    const resource_r4 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("project", resource_r3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("project", resource_r4);
+} }
+function HomeComponent_div_26_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-project-card", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const datapack_r5 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("project", datapack_r5);
 } }
 class HomeComponent {
     constructor() {
@@ -116,12 +125,34 @@ class HomeComponent {
                 loadurl: 'https://cdn.discordapp.com/attachments/787665326364033024/793219954278400040/Golden_Enchanting_Glint.zip'
             },
         ];
+        this.Datapacks = [
+            {
+                title: 'Glowing Glowberries',
+                description: 'You glow when you eat glowberries. There is not much to it :D',
+                img: 'assets/images/datapacks/glow_berries.png',
+                pixel: true,
+                loadurl: 'https://cdn.discordapp.com/attachments/787665326364033024/816760523395301417/GlowingGlowberries.zip'
+            },
+            {
+                title: 'Leash',
+                description: 'You can make a Lesh out of nowhere. Just type /function tt.leash/give to give yourself the book that has everything you\'ll need. (Good for mapmaking)',
+                img: 'assets/images/datapacks/lead.png',
+                pixel: true,
+                loadurl: 'https://cdn.discordapp.com/attachments/787665326364033024/816762474716069888/Leash.zip'
+            },
+            {
+                title: '_jeb',
+                description: 'With this Datapack normal sheep can have every color.',
+                img: 'assets/images/datapacks/Rainbow_Sheep.png',
+                loadurl: 'https://cdn.discordapp.com/attachments/787665326364033024/816763572776337418/SheepColor.zip'
+            },
+        ];
     }
     ngOnInit() {
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 23, vars: 2, consts: [[1, "container"], [1, "row"], [1, "big-title"], [1, "showRow", "p-3", "col-12"], ["src", "assets/images/me.png", "align", "left", 1, "round-img", "mx-3"], [1, "my-4"], ["class", "col", 4, "ngFor", "ngForOf"], [1, "col"], [1, "px-2", 3, "project"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 27, vars: 3, consts: [[1, "container"], [1, "row"], [1, "big-title"], [1, "showRow", "p-3", "col-12"], ["src", "assets/images/me.png", "align", "left", 1, "round-img", "mx-3"], [1, "my-4"], ["class", "col", 4, "ngFor", "ngForOf"], [1, "col"], [1, "px-2", 3, "project"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1", 2);
@@ -131,7 +162,7 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "I am a (really) small German Minecraft Youtuber.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "I am a (really) small German Youtuber / mapmaker.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "On my Channel I am not only doing Survival Let's plays but also these \"Feature\" Videos where I program new things into the game and see how they would look in Minecraft.");
@@ -157,12 +188,20 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](22, HomeComponent_div_22_Template, 2, 1, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "h1", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Data Packs:");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](26, HomeComponent_div_26_Template, 2, 1, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.Projects);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.Resources);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.Datapacks);
     } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"], _project_card_project_card_component__WEBPACK_IMPORTED_MODULE_2__["ProjectCardComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJob21lLmNvbXBvbmVudC5jc3MifQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HomeComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
@@ -261,7 +300,7 @@ class ProjectCardComponent {
     }
 }
 ProjectCardComponent.ɵfac = function ProjectCardComponent_Factory(t) { return new (t || ProjectCardComponent)(); };
-ProjectCardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectCardComponent, selectors: [["app-project-card"]], inputs: { project: "project" }, decls: 10, vars: 7, consts: [[1, "project-card", "px-5", "py-3"], [1, "round-img", 3, "src"], [1, "title", "mb-0"], [4, "ngIf"], [1, "description"], ["class", "learn-more", 3, "href", 4, "ngIf"], ["class", "learn-more", 3, "routerLink", 4, "ngIf"], ["class", "download", 3, "href", 4, "ngIf"], [1, "learn-more", 3, "href"], [1, "learn-more", 3, "routerLink"], [1, "download", 3, "href"], [1, "fas", "fa-file-download"]], template: function ProjectCardComponent_Template(rf, ctx) { if (rf & 1) {
+ProjectCardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectCardComponent, selectors: [["app-project-card"]], inputs: { project: "project" }, decls: 10, vars: 8, consts: [[1, "project-card", "px-5", "py-3"], [1, "round-img", 3, "src", "ngClass"], [1, "title", "mb-0"], [4, "ngIf"], [1, "description"], ["class", "learn-more", 3, "href", 4, "ngIf"], ["class", "learn-more", 3, "routerLink", 4, "ngIf"], ["class", "download", 3, "href", 4, "ngIf"], [1, "learn-more", 3, "href"], [1, "learn-more", 3, "routerLink"], [1, "download", 3, "href"], [1, "fas", "fa-file-download"]], template: function ProjectCardComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h3", 2);
@@ -278,6 +317,7 @@ ProjectCardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", ctx.project.img, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", ctx.project.pixel ? "pixelated" : "");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.project.title);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
@@ -290,7 +330,7 @@ ProjectCardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.project.routerLink);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.project.loadurl);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"]], styles: [".project-card[_ngcontent-%COMP%]{\r\n  background-color: white;\r\n  text-align: center;\r\n}\r\n.title[_ngcontent-%COMP%]{\r\n  font-weight: bold;\r\n  font-size: 2rem;\r\n  color: var(--main);\r\n}\r\n.learn-more[_ngcontent-%COMP%]{\r\n  color: var(--main);\r\n  text-decoration: underline;\r\n}\r\n.download[_ngcontent-%COMP%]{\r\n  color: var(--main);\r\n  text-decoration: none;\r\n  border-radius: 5px;\r\n  transition: background-color 0.3s;\r\n}\r\n.download[_ngcontent-%COMP%]:hover{\r\n  background-color: var(--lightgray);\r\n}\r\n.description[_ngcontent-%COMP%]{\r\n  color: darkgray;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb2plY3QtY2FyZC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsdUJBQXVCO0VBQ3ZCLGtCQUFrQjtBQUNwQjtBQUNBO0VBQ0UsaUJBQWlCO0VBQ2pCLGVBQWU7RUFDZixrQkFBa0I7QUFDcEI7QUFDQTtFQUNFLGtCQUFrQjtFQUNsQiwwQkFBMEI7QUFDNUI7QUFDQTtFQUNFLGtCQUFrQjtFQUNsQixxQkFBcUI7RUFDckIsa0JBQWtCO0VBQ2xCLGlDQUFpQztBQUNuQztBQUNBO0VBQ0Usa0NBQWtDO0FBQ3BDO0FBQ0E7RUFDRSxlQUFlO0FBQ2pCIiwiZmlsZSI6InByb2plY3QtY2FyZC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnByb2plY3QtY2FyZHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuLnRpdGxle1xyXG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gIGZvbnQtc2l6ZTogMnJlbTtcclxuICBjb2xvcjogdmFyKC0tbWFpbik7XHJcbn1cclxuLmxlYXJuLW1vcmV7XHJcbiAgY29sb3I6IHZhcigtLW1haW4pO1xyXG4gIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xyXG59XHJcbi5kb3dubG9hZHtcclxuICBjb2xvcjogdmFyKC0tbWFpbik7XHJcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxuICB0cmFuc2l0aW9uOiBiYWNrZ3JvdW5kLWNvbG9yIDAuM3M7XHJcbn1cclxuLmRvd25sb2FkOmhvdmVye1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0Z3JheSk7XHJcbn1cclxuLmRlc2NyaXB0aW9ue1xyXG4gIGNvbG9yOiBkYXJrZ3JheTtcclxufVxyXG5cclxuIl19 */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgClass"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"]], styles: [".project-card[_ngcontent-%COMP%]{\r\n  background-color: white;\r\n  text-align: center;\r\n}\r\n.title[_ngcontent-%COMP%]{\r\n  font-weight: bold;\r\n  font-size: 2rem;\r\n  color: var(--main);\r\n}\r\n.learn-more[_ngcontent-%COMP%]{\r\n  color: var(--main);\r\n  text-decoration: underline;\r\n}\r\n.download[_ngcontent-%COMP%]{\r\n  color: var(--main);\r\n  text-decoration: none;\r\n  border-radius: 5px;\r\n  transition: background-color 0.3s;\r\n}\r\n.download[_ngcontent-%COMP%]:hover{\r\n  background-color: var(--lightgray);\r\n}\r\n.description[_ngcontent-%COMP%]{\r\n  color: darkgray;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb2plY3QtY2FyZC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsdUJBQXVCO0VBQ3ZCLGtCQUFrQjtBQUNwQjtBQUNBO0VBQ0UsaUJBQWlCO0VBQ2pCLGVBQWU7RUFDZixrQkFBa0I7QUFDcEI7QUFDQTtFQUNFLGtCQUFrQjtFQUNsQiwwQkFBMEI7QUFDNUI7QUFDQTtFQUNFLGtCQUFrQjtFQUNsQixxQkFBcUI7RUFDckIsa0JBQWtCO0VBQ2xCLGlDQUFpQztBQUNuQztBQUNBO0VBQ0Usa0NBQWtDO0FBQ3BDO0FBQ0E7RUFDRSxlQUFlO0FBQ2pCIiwiZmlsZSI6InByb2plY3QtY2FyZC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnByb2plY3QtY2FyZHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuLnRpdGxle1xyXG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gIGZvbnQtc2l6ZTogMnJlbTtcclxuICBjb2xvcjogdmFyKC0tbWFpbik7XHJcbn1cclxuLmxlYXJuLW1vcmV7XHJcbiAgY29sb3I6IHZhcigtLW1haW4pO1xyXG4gIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xyXG59XHJcbi5kb3dubG9hZHtcclxuICBjb2xvcjogdmFyKC0tbWFpbik7XHJcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxuICB0cmFuc2l0aW9uOiBiYWNrZ3JvdW5kLWNvbG9yIDAuM3M7XHJcbn1cclxuLmRvd25sb2FkOmhvdmVye1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0Z3JheSk7XHJcbn1cclxuLmRlc2NyaXB0aW9ue1xyXG4gIGNvbG9yOiBkYXJrZ3JheTtcclxufVxyXG5cclxuIl19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ProjectCardComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -363,6 +403,101 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
 
 /***/ }),
 
+/***/ "Tafr":
+/*!******************************************!*\
+  !*** ./src/app/packs/packs.component.ts ***!
+  \******************************************/
+/*! exports provided: PacksComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PacksComponent", function() { return PacksComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "ofXK");
+/* harmony import */ var _project_card_project_card_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../project-card/project-card.component */ "MyZq");
+
+
+
+
+function PacksComponent_div_6_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-project-card", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const resource_r1 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("project", resource_r1);
+} }
+class PacksComponent {
+    constructor() {
+        this.Resources = [
+            {
+                title: 'Vibrant Grass',
+                description: 'You always thought the Grass in minecraft looked boring? Well then you should download this pack!',
+                img: 'assets/images/Grass.png',
+                loadurl: 'https://cdn.discordapp.com/attachments/787665326364033024/787665664244449280/VibrantGrass.zip'
+            },
+            {
+                title: 'Better Paths',
+                description: 'With this pack the Paths go down blocks.',
+                img: 'assets/images/Path.png',
+                loadurl: 'https://cdn.discordapp.com/attachments/787665326364033024/787666082948448260/BetterPaths.zip'
+            },
+            {
+                title: 'Custom Netherite',
+                status: 'By: GebackeneBanane',
+                description: 'With this pack you have golden parts on your netherite armor.',
+                img: 'assets/images/Netherite.png',
+                loadurl: 'https://cdn.discordapp.com/attachments/787665326364033024/787702793669574726/Custom_Netherite.zip'
+            },
+            {
+                title: 'Better Warped Forrest',
+                description: 'When activating this the warped forrest becomes purple. :O',
+                img: 'assets/images/Warped.png',
+                loadurl: 'https://cdn.discordapp.com/attachments/787665326364033024/787703054060355584/BetterWarpedForrest.zip'
+            },
+            {
+                title: 'Golden Enchantment Glint',
+                status: 'By: Olivier_286',
+                description: 'This pack lets your enchanted items be golden!',
+                img: 'assets/images/GoldenGlint.png',
+                loadurl: 'https://cdn.discordapp.com/attachments/787665326364033024/793219954278400040/Golden_Enchanting_Glint.zip'
+            },
+        ];
+    }
+    ngOnInit() {
+    }
+}
+PacksComponent.ɵfac = function PacksComponent_Factory(t) { return new (t || PacksComponent)(); };
+PacksComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PacksComponent, selectors: [["app-packs"]], decls: 7, vars: 1, consts: [[1, "container"], [1, "row", "big-title"], [1, "row", "m-4", "showRow"], [1, "col-12"], ["class", "col", 4, "ngFor", "ngForOf"], [1, "col"], [1, "px-2", 3, "project"]], template: function PacksComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Select your packs:");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h2", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Quality of life");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, PacksComponent_div_6_Template, 2, 1, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.Resources);
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"], _project_card_project_card_component__WEBPACK_IMPORTED_MODULE_2__["ProjectCardComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJwYWNrcy5jb21wb25lbnQuY3NzIn0= */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](PacksComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-packs',
+                templateUrl: './packs.component.html',
+                styleUrls: ['./packs.component.css']
+            }]
+    }], function () { return []; }, null); })();
+
+
+/***/ }),
+
 /***/ "ZAI4":
 /*!*******************************!*\
   !*** ./src/app/app.module.ts ***!
@@ -381,6 +516,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app-routing.module */ "vY5A");
 /* harmony import */ var _themepark_themepark_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./themepark/themepark.component */ "p/OE");
 /* harmony import */ var _backbutton_backbutton_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./backbutton/backbutton.component */ "m6mx");
+/* harmony import */ var _packs_packs_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./packs/packs.component */ "Tafr");
+
 
 
 
@@ -401,7 +538,8 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
         _project_card_project_card_component__WEBPACK_IMPORTED_MODULE_3__["ProjectCardComponent"],
         _home_home_component__WEBPACK_IMPORTED_MODULE_4__["HomeComponent"],
         _themepark_themepark_component__WEBPACK_IMPORTED_MODULE_6__["ThemeparkComponent"],
-        _backbutton_backbutton_component__WEBPACK_IMPORTED_MODULE_7__["BackbuttonComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _backbutton_backbutton_component__WEBPACK_IMPORTED_MODULE_7__["BackbuttonComponent"],
+        _packs_packs_component__WEBPACK_IMPORTED_MODULE_8__["PacksComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
         _app_routing_module__WEBPACK_IMPORTED_MODULE_5__["AppRoutingModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
@@ -411,7 +549,8 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _project_card_project_card_component__WEBPACK_IMPORTED_MODULE_3__["ProjectCardComponent"],
                     _home_home_component__WEBPACK_IMPORTED_MODULE_4__["HomeComponent"],
                     _themepark_themepark_component__WEBPACK_IMPORTED_MODULE_6__["ThemeparkComponent"],
-                    _backbutton_backbutton_component__WEBPACK_IMPORTED_MODULE_7__["BackbuttonComponent"]
+                    _backbutton_backbutton_component__WEBPACK_IMPORTED_MODULE_7__["BackbuttonComponent"],
+                    _packs_packs_component__WEBPACK_IMPORTED_MODULE_8__["PacksComponent"]
                 ],
                 imports: [
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -758,6 +897,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "tyNb");
 /* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home/home.component */ "9vUh");
 /* harmony import */ var _themepark_themepark_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./themepark/themepark.component */ "p/OE");
+/* harmony import */ var _packs_packs_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./packs/packs.component */ "Tafr");
+
 
 
 
@@ -766,7 +907,8 @@ __webpack_require__.r(__webpack_exports__);
 
 const routes = [
     { path: '', component: _home_home_component__WEBPACK_IMPORTED_MODULE_2__["HomeComponent"] },
-    { path: 'park', component: _themepark_themepark_component__WEBPACK_IMPORTED_MODULE_3__["ThemeparkComponent"] }
+    { path: 'park', component: _themepark_themepark_component__WEBPACK_IMPORTED_MODULE_3__["ThemeparkComponent"] },
+    { path: 'packs', component: _packs_packs_component__WEBPACK_IMPORTED_MODULE_4__["PacksComponent"] }
 ];
 class AppRoutingModule {
 }

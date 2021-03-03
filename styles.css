@@ -66,6 +66,11 @@ body{
   height: 200px;
   width: 200px;
 }
+.pixelated{
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
 
 
 /*# sourceMappingURL=styles.css.map*/
