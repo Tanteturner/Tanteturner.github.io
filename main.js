@@ -113,7 +113,7 @@ class HomeComponent {
             },
             {
                 title: 'Better Warped Forrest',
-                description: 'When activating this the warped forrest becomes purple. :O',
+                description: 'When activating this the warped forrest turns purple. :O',
                 img: 'assets/images/Warped.png',
                 loadurl: 'https://cdn.discordapp.com/attachments/787665326364033024/787703054060355584/BetterWarpedForrest.zip'
             },
@@ -123,6 +123,13 @@ class HomeComponent {
                 description: 'This pack lets your enchanted items be golden!',
                 img: 'assets/images/GoldenGlint.png',
                 loadurl: 'https://cdn.discordapp.com/attachments/787665326364033024/793219954278400040/Golden_Enchanting_Glint.zip'
+            },
+            {
+                title: 'Fox to racoon',
+                status: 'Requires Optifine!',
+                description: 'This pack turns foxes into racoons!',
+                img: 'assets/images/recourcepacks/raccoon.png',
+                loadurl: 'https://cdn.discordapp.com/attachments/787665326364033024/839564828062122004/RACCOOOOONS.zip'
             },
         ];
         this.Datapacks = [
